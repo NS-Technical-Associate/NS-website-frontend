@@ -114,7 +114,7 @@ export default function Careers() {
       </Helmet>
 
       {/* Hero */}
-      <div className="py-24 border-b border-white/10">
+      <div className="py-24 border-b border-white/10 pb-10">
         <motion.div {...fadeUp(0)} className="max-w-4xl mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#F1C232]">
             Careers at Neuricorn Syndicate
@@ -125,7 +125,7 @@ export default function Careers() {
         </motion.div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-6 py-24">
+      <div className="max-w-5xl mx-auto pt-10 px-6 py-24">
         <motion.h2 {...fadeUp(0.1)} className="text-2xl md:text-3xl font-bold text-center mb-4">
           Apply to Join Our Team
         </motion.h2>
@@ -160,7 +160,14 @@ export default function Careers() {
           <Input label="LinkedIn" name="linkedin" value={form.linkedin} onChange={handleChange} />
 
           <div className="sm:col-span-2">
-            <Input label="Portfolio" name="portfolio" value={form.portfolio} onChange={handleChange} />
+            <label className="block text-sm text-slate-300 mb-2">Portfolio (optional)</label>
+            <input 
+              type="url" 
+              name="portfolio" 
+              value={form.portfolio} 
+              onChange={handleChange} 
+              className="w-full bg-[#0B0F14] border border-white/10 rounded-lg px-3 py-2 text-white outline-none"
+              />
           </div>
 
           <motion.button
