@@ -12,22 +12,11 @@ export default function WhoWeAre() {
     >
       {/* Text */}
       <div>
-        <h2 className="text-3xl font-bold mb-6 text-white">
-          Who We Are
-          <span className="block w-14 h-1 bg-[#D4AF37] mt-3 rounded-full" />
-        </h2>
+        <h2 className="text-3xl font-bold mb-6 text-white"> Who We Are <span className="block w-14 h-1 bg-[#D4AF37] mt-3 rounded-full" /> </h2>
+         <p className="text-slate-400 leading-relaxed mb-5"> Neuricorn Syndicate is a technology company specializing in AI solutions, custom software development, web applications, mobile app development, automation, and digital transformation for businesses and organizations. </p>
 
-        <p className="text-slate-400 leading-relaxed mb-5">
-          Neuricorn Syndicate (NS) is a growing technology consultancy driven by
-          passionate engineers and young professionals who believe in learning
-          by building real products.
-        </p>
+        <p className="text-slate-400 leading-relaxed"> We design, develop, and deliver scalable digital products that solve real-world challenges through innovation, modern technology, and engineering excellence. </p>
 
-        <p className="text-slate-400 leading-relaxed">
-          We collaborate with startups, organizations, and individuals to design
-          and develop digital solutions while also helping students gain
-          industry-relevant experience through real-world projects.
-        </p>
       </div>
 
       {/* Visual Logo */}

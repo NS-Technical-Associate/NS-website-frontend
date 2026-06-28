@@ -11,12 +11,26 @@ export default function About() {
 
       {/* ✅ SEO added */}
       <Helmet>
-        <title>About Neuricorn Syndicate | Software & IT Solutions Company</title>
+        <title>
+          About Neuricorn Syndicate | AI, Software & Digital Solutions Company
+        </title>
+
         <meta
           name="description"
-          content="Learn about Neuricorn Syndicate, a student-led tech consultancy focused on software development, innovation, and real-world solutions."
+          content="Learn about Neuricorn Syndicate, a technology company delivering AI solutions, custom software, web development, mobile applications, automation, and digital transformation services."
         />
+
+        <meta
+          name="keywords"
+          content="Neuricorn Syndicate, AI company, software development, web development, mobile app development, IT consulting, automation, digital transformation"
+        />
+
         <meta name="robots" content="index, follow" />
+
+        <link
+          rel="canonical"
+          href="https://neuricornsyndicate.com/about"
+        />
       </Helmet>
 
       {/* Hero */}
@@ -31,8 +45,7 @@ export default function About() {
             About Neuricorn Syndicate
           </h1>
           <p className="text-slate-400 text-lg leading-relaxed">
-            A student-led tech consultancy focused on building real-world solutions
-            through innovation, collaboration, and continuous learning.
+            Neuricorn Syndicate is a technology company delivering AI-powered solutions, custom software, and digital products that help businesses innovate, automate processes, and solve real-world challenges.
           </p>
         </motion.div>
       </div>

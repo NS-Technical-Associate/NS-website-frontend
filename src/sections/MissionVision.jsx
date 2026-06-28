@@ -16,11 +16,7 @@ export default function MissionVision() {
                       hover:bg-[#111827] transition">
         <Target className="text-[#D4AF37] mb-5" size={30} />
         <h3 className="text-xl font-semibold mb-4 text-white">Our Mission</h3>
-        <p className="text-slate-400 leading-relaxed">
-          To bridge the gap between education and industry by creating
-          opportunities where learning, innovation, and real-world problem
-          solving happen together.
-        </p>
+        <p className="text-slate-400 leading-relaxed"> To deliver innovative AI solutions, custom software, web and mobile applications, and digital transformation services that help businesses solve real-world challenges and achieve sustainable growth. </p>
       </div>
 
       {/* Vision */}
@@ -28,11 +24,7 @@ export default function MissionVision() {
                       hover:bg-[#111827] hover:shadow-[0_0_30px_rgba(212,175,55,0.5)] hover:border-[#D4AF37]/40 transition">
         <Eye className="text-[#D4AF37] mb-5" size={30} />
         <h3 className="text-xl font-semibold mb-4 text-white">Our Vision</h3>
-        <p className="text-slate-400 leading-relaxed">
-          To build a community-driven tech ecosystem where young innovators
-          contribute to impactful projects while growing into skilled
-          professionals.
-        </p>
+        <p className="text-slate-400 leading-relaxed"> To become a trusted global technology company recognized for AI innovation, software engineering excellence, and building impactful digital solutions that shape the future. </p>
       </div>
     </motion.section>
   );
