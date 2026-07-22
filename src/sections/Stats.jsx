@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 
 export default function Stats() {
   const stats = [
-    { value: "5", suffix: "+", label: "Projects Completed" },
+    { value: "25", suffix: "+", label: "Projects Completed" },
     { value: "20", suffix: "+", label: "Team Members" },
     { value: "24", suffix: "/7", label: "Support & Uptime" },
   ];
