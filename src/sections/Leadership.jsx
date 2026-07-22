@@ -6,6 +6,7 @@ export default function Leadership() {
       name: "Mohammed Kaif Ahmed",
       role: "Founder & CEO",
       desc: "Builds scalable, execution-first digital products, translating complex business problems into lean, market-ready software. Leads projects end-to-end with a focus on clarity, scalability, and long-term growth.",
+      linkedin: "https://www.linkedin.com/in/mohammed-kaif-ahmed-01187b2ab/",
     },
     {
       name: "Shakeel Ahmed",
